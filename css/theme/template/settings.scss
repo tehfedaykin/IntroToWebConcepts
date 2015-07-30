@@ -3,45 +3,46 @@
 
 // Include theme-specific fonts
 @font-face {
-	font-family: "Gotham";
-	src: local("Gotham"),
-	url("fonts/Gotham/Gotham-Medium.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
-}
+  font-family: "Lato";
+  src: local("Lato"), url("fonts/Lato/Lato-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 @font-face {
-	font-family: "Gotham-Book";
-	src: local("Gotham-Book"),
-	url("fonts/Gotham/Gotham-Book.otf") format("opentype");
-	font-weight: normal;
-	font-style: normal;
-}
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"), url("fonts/Lato/Lato-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 @font-face {
-	font-family: "Gotham-Italic";
-	src: local("Gotham-Italic"),
-	url("fonts/Gotham/Gotham-MediumIta.otf") format("opentype");
-	font-weight: normal;
-	font-style: italic;
-}
+  font-family: "Lato-Italic";
+  src: local("Lato-Italic"), url("fonts/Lato/Lato-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
 @font-face {
-	font-family: "Gotham-Bold";
-	src: local("Gotham-Bold"),
-	url("fonts/Gotham/Gotham-Bold.otf") format("opentype");
-	font-weight: bold;
-	font-style: bold;
-}
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"), url("fonts/Lato/Lato-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+
+@font-face {
+  font-family: "Lato-Black";
+  src: local("Lato-Black"), url("fonts/Lato/Lato-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
 
 // Background of the presentation
-$backgroundColor: #2b2b2b;
+$backgroundColor: #666b8f;
 
 // Primary/body text
-$mainFont: 'Gotham-Book', 'Helvetica', Arial, sans-serif;
+$mainFont: 'Lato', 'Helvetica', Arial, sans-serif;
 $mainFontSize: 36px;
-$mainColor: #eee;
+$mainColor: #fff;
 
 // Headings
-$headingFont: 'Gotham-Bold', Impact, sans-serif;
-$headingColor: #F05B62;
+$headingFont: 'Lato-Bold', Impact, sans-serif;
+$headingColor: #fff;
 $headingLineHeight: 0.9em;
 $headingLetterSpacing: 0.02em;
 $headingTextTransform: uppercase;

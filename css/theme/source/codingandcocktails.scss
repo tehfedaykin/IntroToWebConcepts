@@ -3,13 +3,18 @@
 @import "../template/settings";
 // ---------------------------------------------
 
+
 // Override theme settings (see ../template/settings.scss)
+$mainColor: #333;
+$headingColor: #fff;
+$backgroundColor: #666b8f;
 $linkColor: #01A9B4;
+$selectionBackgroundColor: #134674;
+
 // Background generator
 @mixin bodyBackground() {
-	@include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
+	@include radial-gradient( lighten($backgroundColor, 40% ), #8e92ac );
 }
-
 
 
 // Theme template ------------------------------
